@@ -16,11 +16,13 @@ To run properly you should have a python 3 installed on your machine as well as 
 - numpy 
 ```
 
-Once you have made sure the following packages are installed in your environment simply run the file with the following command:
+Once you have made sure the following packages are installed in your environment simply clone repository the file with the following command:
 ```
->> python thefilename.py
+>> git clone  git@github.com:MayeulSGC/MarketMakingGame.git
+>> cd MarketMakingGame
+>> python MarketMakingMentalGame.py
 ```
-
+Otherwise you can copy and paste the code in your own file, save it as `.py` and run the last line of the previous instructions after updating the file name with the name of your file.
 ## Running ##
 The game let you choose different settings to adapt the difficulty to your own level. You can choose the number of rounds, the range of possible values for the item, the amount of time allocated to each round of calculation. <br>
 At the end of the game, a graph is plotted, displaying the information of the run such as the uncertainty values, the spread, the exact expected value at each round. 
